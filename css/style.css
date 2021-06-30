@@ -58,9 +58,14 @@ html {
   font-size: 1.1rem;
 }
 
+.navbar-brand img {
+  width: 150px;
+  margin-left: 30px;
+}
+
 /* Pocetna */
 .v-header {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   color: #fff;
@@ -117,7 +122,7 @@ html {
 
 /* Proizvodi */
 #proizvodi {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* Najam Aparata */
@@ -179,8 +184,8 @@ html {
 
 /* Kontakt */
 #kontakt-jumbotron {
-  width: 100vw;
-  height: 60vh;
+  width: 100%;
+  height: 80vh;
   background-color: #e4bc84;
   display: flex;
   justify-content: center;
@@ -204,7 +209,6 @@ html {
 }
 
 #kontakt .map {
-  margin-right: 100px;
   width: 50%;
 }
 
@@ -228,12 +232,105 @@ html {
 /* Footer */
 #footer {
   background-color: #e4bc84;
-  height: 50px;
+  height: 100%;
   padding: 10px 0;
 }
 
 @media(max-width:960px) {
+  .heading h1 {
+    font-size: 2.2rem;
+  }
+  .subheading h2 {
+    font-size: 1.7rem;
+  }
+  .heading {
+    margin-bottom: 20px;
+  }
+  .subheading {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    padding: 0 3rem;
+  }
+  .fullscreen-video-wrap {
+    height: 100vh;
+  }
+  .header-overlay {
+    height: 100vh;
+  }
+  #najam-aparata {
+    margin-top: 50px 0 20px 0;
+  }
+  #koristenje {
+    padding: 0;
+    margin-top: 50px;
+  }
+  #koristenje .upozorenje {
+    width: 90%;
+  }
+  #koristenje iframe {
+    width: 100%;
+  }
+  #eko-promocija {
+    padding: 40px 20px 0 20px;
+  }
+  
+  #eko-promocija img {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  #kontakt-jumbotron {
+    height: 100%;
+    margin-top: 0;
+    padding: 30px 20px;
+  }
+  #kontakt-jumbotron .heading {
+    padding-top: 0;
+  }
+  #kontakt-jumbotron .text .table-wrapper {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  #kontakt {
+    margin: 30px 0 0 0;
+    padding: 0;
+  }
+  #kontakt .map {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #kontakt .map iframe{
+    width: 100%;
+    height: 250px;
+  }
+  #kontakt .forma {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width:640px) {
   .wrapper {
      padding: 0 3rem;
   }
+  .v-header {
+    height: 100%;
+  }
+  .fullscreen-video-wrap {
+    height: 160%;
+  }
+  .header-overlay {
+    height: 160%;
+  }
+  .header-content h1 {
+    margin: 20px 0;
+  }
+  .header-content p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+
+
 }
