@@ -320,6 +320,12 @@ html {
 }
 
 @media(max-width:640px) {
+  #koristenje iframe {
+    width: 100%;
+  }
+  #koristenje video {
+    width: 100%;
+  }
   .wrapper {
      padding: 0 3rem;
   }
