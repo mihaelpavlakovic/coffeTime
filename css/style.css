@@ -166,6 +166,13 @@ html {
   color: #000;
 }
 
+#koristenje video {
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin-bottom: 30px;
+}
+
 /* Eko Promocija */
 #eko-promocija {
   width: 100vw;
